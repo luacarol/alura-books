@@ -1,6 +1,7 @@
 import './App.css';
 import Logo from './componentes/Logo';
 
+const textoOpcoes = ['CATEGORIAS', 'FAVORITOS', 'MINHA ESTANTE']
 
 function App() {
   return (
@@ -8,9 +9,9 @@ function App() {
       <header className='App-header'>
         <Logo/>
         <ul className='opcoes'>
-          <li className='opcao'><p>CATEGORIAS</p></li>
-          <li className='opcao'><p>MINHA ESTANTE</p></li>
-          <li className='opcao'><p>FAVORITOS</p></li>
+          { textoOpcoes.map((textoOpcao) => (
+            <li className='opcao'><p>{textoOpcao}</p></li>
+          )) }
         </ul>
       </header>
     </div>
