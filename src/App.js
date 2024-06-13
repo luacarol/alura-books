@@ -1,9 +1,13 @@
 import './App.css';
+import logo from './imagens/logo.svg';
 
 function App() {
   return (
-    <div>
-      <header className="App-header">
+    <div className='App'>
+      <header className='App-header'>
+        <div className='logo'>
+          <img src={logo}/>
+        </div>
       </header>
     </div>
   );
