@@ -9,9 +9,9 @@ const UltimosLancamentosContainer = styled.section`
 `
 
 const Titulo = styled.h2`
-    width: 100%,
+    width: 100%;
     padding: 30px 0;
-    background-color: #FFF,
+    background-color: #FFF;
     color: #EB9B00;
     font-size: 36px;
     text-align: center;
