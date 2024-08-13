@@ -1,5 +1,5 @@
-import Pesquisa from './componentes/Pesquisa/index';
-import UltimosLancamentos from './componentes/UltimosLancamentos';
+import Pesquisa from '../componentes/Pesquisa/index';
+import UltimosLancamentos from '../componentes/UltimosLancamentos';
 import styled from 'styled-components';
 
 
@@ -10,7 +10,7 @@ const AppContainer = styled.div`
 `
 
 
-function App() {
+function Home() {
   return (
     <AppContainer>
       <Pesquisa/>
@@ -19,4 +19,4 @@ function App() {
   );
 }
 
-export default App;
+export default Home;
